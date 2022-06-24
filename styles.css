@@ -232,12 +232,13 @@ iframe {
 
   .main{
     margin-top: 130px;
+    
   }
   .main img{
     width: 400px;
   }
   .promo{
-    margin: 30px;
+    width: 90%;
   }
   .publish > form{
     flex-direction: column;
@@ -258,10 +259,8 @@ iframe {
     max-width: 90%;
     
   }
-
  .explanatory-video  > video{
    width: 100%;
-   
   }
   .publish{
     margin-top: 10px;
@@ -270,5 +269,9 @@ iframe {
   .publish > h3 {
     font-size: 25px;
     line-height: 1.2;
+  }
+  iframe{
+    width: 350px;
+    height: 250px;
   }
 }
