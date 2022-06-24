@@ -217,3 +217,58 @@ iframe {
   border-radius: 10px;
 }
 
+
+@media (max-width: 550px) {
+  .navbar,
+  .actions{
+    display: none;
+  }
+  body{
+    background-color: #fff;
+  }
+  h1{
+    font-size: 15px;
+  }
+
+  .main{
+    margin-top: 130px;
+  }
+  .main img{
+    width: 400px;
+  }
+  .promo{
+    margin: 30px;
+  }
+  .publish > form{
+    flex-direction: column;
+  }
+
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .publish > form > div > input {
+    width: 65%;
+  }
+
+  .promo {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    
+  }
+
+ .explanatory-video  > video{
+   width: 100%;
+   
+  }
+  .publish{
+    margin-top: 10px;
+  }
+
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+}
