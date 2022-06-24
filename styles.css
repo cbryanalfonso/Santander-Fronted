@@ -276,7 +276,7 @@ iframe {
   }
   .features{
     display: grid;
-  grid-template: repeat(1,350px) / repeat(1,1fr);
+  grid-template: repeat(4,350px) / repeat(1,1fr);
   background-color: #025157;
   }
   .features .card-article{
